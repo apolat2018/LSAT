@@ -1,2 +1,2 @@
 # LSAT
- Landslide Susceptibility Assesment Tool
+ Land Slide Susceptibility Assesment Tool 
