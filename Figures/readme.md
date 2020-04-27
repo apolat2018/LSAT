@@ -46,9 +46,6 @@
   <img  src="https://github.com/apolat2018/LSAT/blob/master/Figures/Figure5_gh.jpg">
 </p>
 
-<p align="left">
-  <img  src="https://github.com/apolat2018/LSAT/blob/master/Figures/Figure5_hi.jpg">
-</p>
 
 <p align="left">
   <img  src="https://github.com/apolat2018/LSAT/blob/master/Figures/Figure5_ij.jpg">
