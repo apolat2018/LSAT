@@ -1,7 +1,9 @@
 # *Landslide Susceptibility Assessment tool* (LSAT)
-Firstly you should prepare reclassed landslide factor rasters.They should be same sizes and same resolutions.
+Firstly you should prepare reclassed landslide factor rasters.They should be same sizes and same resolutions.Prepared raster files must be shown in below.
+IMPORTANT: All parameter files should be in same folder. The name of the parameter raster files must begin with "rec". rec_aspect, rec_slope etc.
  <p>
   <img width="1024" height="2048" src="https://github.com/apolat2018/LSAT/blob/master/rasters_image.jpg"><p>
+
 ### Installing required libraries
 
 LSAT works on ArcGIS software with the Windows platform. Before using the LSAT, the required installations must
