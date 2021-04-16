@@ -3,8 +3,8 @@ Firstly you should prepare reclassed landslide factor rasters.They should be sam
 IMPORTANT: All parameter files should be in same folder. There should be no files other than factor raster files in this folder. The name of the parameter raster files must begin with "rec". rec_asp, rec_slp etc. Please do not use too long file names.
 
 Landslide file must be polygonal type as shapefile format.\
-Also, the area file must be polygonal type as shapefile format.
-The sample data is:\
+Also, the area file must be polygonal type as shapefile format.\
+The sample data folder is given below:\
 https://github.com/apolat2018/LSAT/tree/master/sampla_data \
 Factor raster files are in raster folder. Landslides and area file are in vectors folder.
 
