@@ -1,4 +1,5 @@
 # *Landslide Susceptibility Assessment tool* (LSAT)
+Firstly you should prepare landslide factor rasters.They should be same sizes and same resolutions.
 ### Installing required libraries
 
 LSAT works on ArcGIS software with the Windows platform. Before using the LSAT, the required installations must
