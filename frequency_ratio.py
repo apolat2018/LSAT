@@ -5,6 +5,7 @@
 #//////////////////////////////Ali POLAT (2018)////////////////////////////////
 
 #////////////////////IMPORTING THE REQUIRED LIBRARIES/////////////////////////
+arcpy.AddMessage("Analysis started")
 import arcpy
 import os,sys
 from arcpy.sa import *
@@ -333,16 +334,21 @@ g=round(sum(ts_son)*100,2)
 #///////////////////////////////AUC graph is plotting//////////////////////////
 arcpy.AddMessage("Success rate is: {}".format(sum(tr_son)*100))
 arcpy.AddMessage("prediction rate is: {}".format(sum(ts_son)*100))
-sc=plt.plot(tot,tr,color="red",label=":Success Rate"+"("+str(f)+")")
+arcpy.AddMessage(len(tot))
+arcpy.AddMessage(tr)
 
-pr=plt.plot(tot,ts,color="blue",label=":Prediction Rate"+"("+str(g)+")")
+plt.plot(tot,tr,color="red",label=":Success Rate"+"("+str(f)+")")#success rate
+
+plt.plot(tot,ts,color="blue",label=":Prediction Rate"+"("+str(g)+")")#prediction rate
 
 plt.xlabel("1-Specifity")
 plt.ylabel("Sensitivity")
 plt.legend(loc="lower right")
+
 arcpy.AddMessage("AUC Graph is saved as auc_fr.png")
 auc_graph=os.path.join(sf,"auc_fr.png")
 plt.savefig(auc_graph,dpi=150)
+
 plt.close("all")
 
 arcpy.ClearWorkspaceCache_management() 
