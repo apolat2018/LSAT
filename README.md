@@ -5,7 +5,7 @@ IMPORTANT: All parameter files should be in same folder. There should be no file
 Landslide file must be polygonal type as shapefile format.\
 Also, the area file must be polygonal type as shapefile format.
 The sample data is:\
-https://github.com/apolat2018/LSAT/tree/master/sampla_data
+https://github.com/apolat2018/LSAT/tree/master/sampla_data \
 Factor raster files are in raster folder. Landslides and area file are in vectors folder.
 
 
