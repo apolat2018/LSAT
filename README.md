@@ -1,6 +1,6 @@
 # *Landslide Susceptibility Assessment tool* (LSAT)
 Firstly you should prepare reclassed landslide factor rasters. They should be the same sizes and same resolutions.Prepared raster files must be shown below.\
-IMPORTANT: All parameter files should be in the same folder. There should be no files other than factor raster files in this folder. The name of the parameter raster files must begin with "rec". rec_asp, rec_slp etc. Please do not use too long file names.
+IMPORTANT: All parameter files should be in the same folder. There should be no files other than factor raster files in this folder. The names of the parameters (factors) raster files must begin with "rec". rec_asp, rec_slp etc. Please do not use too long file names.
 
 Landslide file must be polygonal type as shapefile format.\
 Also, the area file must be polygonal type as shapefile format.\
