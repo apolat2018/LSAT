@@ -56,7 +56,7 @@ A tool file also was created for ArcGIS software (Landslide_Susceptibility_Asses
 |[Annex](https://github.com/apolat2018/LSAT/tree/master/Annex)|
 [Figures](https://github.com/apolat2018/LSAT/tree/master/Figures)|
 
-*Dr. Ali POLAT (2021)*\
+*Dr. Ali POLAT (2021)*
 
 ### Cite this article
 Polat, A. An innovative, fast method for landslide susceptibility mapping using GIS-based LSAT toolbox. Environ Earth Sci 80, 217 (2021). https://doi.org/10.1007/s12665-021-09511-y
