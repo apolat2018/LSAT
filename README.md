@@ -24,7 +24,7 @@ A tool file also was created for ArcGIS software (Landslide_Susceptibility_Asses
 
 ## How to use Toolbox
 
-Firstly you should prepare reclassed landslide factor raster files. They should be the same sizes and same resolutions.Prepared raster files must be shown below.\
+Firstly you should prepare reclassed landslide factor raster files. They should be the same sizes and same resolutions.Prepared raster files must be shown below.
  <p>
   <img width="1024" height="2048" src="https://github.com/apolat2018/LSAT/blob/master/rasters_image.jpg"><p>
 
@@ -33,7 +33,7 @@ IMPORTANT: All parameter files should be in the same folder. There should be no 
 Landslide file must be polygonal type as shapefile format.\
 Also, the area file must be polygonal type as shapefile format.\
 The sample data folder is given below:\
-https://github.com/apolat2018/LSAT/tree/master/sampla_data \
+https://github.com/apolat2018/LSAT/tree/master/sample_data \
 Factor raster files are in raster folder. Landslides and area file are in vectors folder.
 
 ## Installing required libraries
