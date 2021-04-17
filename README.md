@@ -22,9 +22,12 @@ A tool file also was created for ArcGIS software (Landslide_Susceptibility_Asses
  - Create_LSM&Calculate_ROC.py is used to creates Landslide Susceptibility Map and calculates Area Under Curve (AUC) values with data including X-Y coordinate and probability fields. Prepared data using this script can be analyzed in external software. Then classification results can be processed with Create LSM and Calculate ROC script in GIS and susceptibility map can be created with AUC values. 
  - The other scripts are used to create LSM with the methods of Frequency Ratio (FR), Information Value (IV), Logistic Regression (LR), Random Forest (RF) and Multi-Layer Perceptron (MLP). Also, this tool includes tuning script for the methods of LR, RF, and MLP.
 
-###How to use Toolbox
+## How to use Toolbox
 
-Firstly you should prepare reclassed landslide factor rasters. They should be the same sizes and same resolutions.Prepared raster files must be shown below.\
+Firstly you should prepare reclassed landslide factor raster files. They should be the same sizes and same resolutions.Prepared raster files must be shown below.\
+ <p>
+  <img width="1024" height="2048" src="https://github.com/apolat2018/LSAT/blob/master/rasters_image.jpg"><p>
+
 IMPORTANT: All parameter files should be in the same folder. There should be no files other than factor raster files in this folder. The names of the parameters (factors) raster files must begin with "rec". rec_asp, rec_slp etc. Please do not use too long file names.
 
 Landslide file must be polygonal type as shapefile format.\
@@ -33,11 +36,7 @@ The sample data folder is given below:\
 https://github.com/apolat2018/LSAT/tree/master/sampla_data \
 Factor raster files are in raster folder. Landslides and area file are in vectors folder.
 
-
- <p>
-  <img width="1024" height="2048" src="https://github.com/apolat2018/LSAT/blob/master/rasters_image.jpg"><p>
-
-### Installing required libraries
+## Installing required libraries
 
 LSAT works on ArcGIS software with the Windows platform. Before using the LSAT, the required installations must
 be done. Python 2.7 is already installed with ArcGIS 10.4.
@@ -51,10 +50,6 @@ tasks.
  * Pandas 0.16.1
  * Matplotlib 1.4.3  
  In addition to these, the C++ compiler must be installed for windows.
-
-
-
-
 
 **Supplementary**
 |-----------|
