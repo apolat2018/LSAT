@@ -86,8 +86,7 @@ You can choose the methods of Frequency Ratio (FR), Information Value (IV), Logi
 If you have an excel file including x, y coordinate values, and probability fields you can use the script of "2- Create LSM and Calculate ROC". The excel file can be created by external software with different analysis methods. If you want to use the analysis methods of the LSAT tool you don't need to use this script.
 <p>
   <img width="550" height="512" src=https://github.com/apolat2018/LSAT/blob/master/Annex/fig5.png><p>
-
-* 
+ 
 **Supplementary**
 |-----------|
 |[Annex](https://github.com/apolat2018/LSAT/tree/master/Annex)|
