@@ -37,6 +37,20 @@ Also, the area file must be polygonal type as shapefile format.\
 The sample data folder is given below:\
 https://github.com/apolat2018/LSAT/tree/master/sample_data \
 Factor raster files are in raster folder. Landslides and area file are in vectors folder.
+## Installing required libraries
+
+LSAT works on ArcGIS software with the Windows platform. Before using the LSAT, the required installations must
+be done. Python 2.7 is already installed with ArcGIS 10.4.
+The libraries must be compatible with the version of Python
+2.7. Pip is recommended for easy installation. If a different
+version of python is installed, pip2.7 must be used. Scikitlearn (Pedregosa et al. 2011) is the main library for our
+tasks.
+ * Numpy (version of 1.8.2 or higher)
+ * SciPy (version of 0.13.3 or higher)
+ * Scikit-learn. Python 2.7 supports the versions of Scikit-learn 0.20 and earlier. In this study, the version of 0.20.2 was installed. Also, Numpy 1.15.4, 
+ * Pandas 0.16.1
+ * Matplotlib 1.4.3  
+ In addition to these, the C++ compiler must be installed for windows.
 ## How to use the LSAT toolbox
 * After the installations are done, download the toolbox and script files with py extensions to same folder.
 * Open ArcGis.
@@ -54,27 +68,21 @@ Factor raster files are in raster folder. Landslides and area file are in vector
   <img width="550" height="512" src="https://github.com/apolat2018/LSAT/blob/master/Annex/fig1.png"><p>
 
 ### Analysis
+Choose an analysis method.\
+For example, if you chose logistic regression:
+* Double click "5- Logistic Regression method" 
+* Select workspace folder (The folder including output data of Data Preparation script)
+* Select save file folder (Susceptibility map and ROC graph is saving this Folder)
+* Select Coordinate system
+* Select cell size
+* Select weighting data type frequency ratio or information value
+* Select C value: Inverse of regularization strength; must be a positive float. Like in support vector machines, smaller values specify stronger regularization.
+* Select maximum iteration value:Maximum number of iterations taken for the solvers to converge.
+* Select solver:'newton-cg', 'lbfgs', 'liblinear', 'sag', 'saga'
 
-* Double click "1- Data Preparation" script to prepare data.
-This script will create many new files inside the selected directory. The files will be used in later analysis.
+This script will create landslide susceptiblity map with logistic regression method.
 
 
-
-
-## Installing required libraries
-
-LSAT works on ArcGIS software with the Windows platform. Before using the LSAT, the required installations must
-be done. Python 2.7 is already installed with ArcGIS 10.4.
-The libraries must be compatible with the version of Python
-2.7. Pip is recommended for easy installation. If a different
-version of python is installed, pip2.7 must be used. Scikitlearn (Pedregosa et al. 2011) is the main library for our
-tasks.
- * Numpy (version of 1.8.2 or higher)
- * SciPy (version of 0.13.3 or higher)
- * Scikit-learn. Python 2.7 supports the versions of Scikit-learn 0.20 and earlier. In this study, the version of 0.20.2 was installed. Also, Numpy 1.15.4, 
- * Pandas 0.16.1
- * Matplotlib 1.4.3  
- In addition to these, the C++ compiler must be installed for windows.
 
 **Supplementary**
 |-----------|
