@@ -1,6 +1,6 @@
 # *Landslide Susceptibility Assessment tool* (LSAT)
 
-### LSAT scripts have been prepared for the assessment of landslide susceptibility.  
+## LSAT scripts have been prepared for the assessment of landslide susceptibility.  
  <p>
   <img width="1024" height="522" src="https://github.com/apolat2018/LSAT/blob/master/Figure1.jpg"><p>
 
@@ -35,6 +35,32 @@ Also, the area file must be polygonal type as shapefile format.\
 The sample data folder is given below:\
 https://github.com/apolat2018/LSAT/tree/master/sample_data \
 Factor raster files are in raster folder. Landslides and area file are in vectors folder.
+# ------------------------------------------------------------\
+* After the installations are done, download the toolbox and files with py extensions to a directory.
+* Open ArcGis.
+* Go to Catalog and open the toolbox file in the downloaded folder.
+## First step
+### Preparing data for analysis
+* Double click "1- Data Preparation" script to prepare data.
+    * Select the folder of landslide parameters (The name of the parameter raster files must begin with "rec". rec_aspect, rec_slope etc.)
+    * Select landslide shp file (Landslides file(.shp) must be polygon type)
+    * Select area file (must be polygonal type .shp)
+    * Select cell size
+    * Select Train-Validation Split size (%). 70 mean %70 of data for train and 30% of data for test
+    * Click "OK"
+
+    <p>
+  <img width="512" height="1024" src="https://github.com/apolat2018/LSAT/blob/master/Annex/fig1.png"><p>
+    
+
+## Second step
+### Analysis
+
+* Double click "1- Data Preparation" script to prepare data.
+This script will create many new files inside the selected directory. The files will be used in later analysis.
+
+
+
 
 ## Installing required libraries
 
