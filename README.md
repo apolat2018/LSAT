@@ -81,8 +81,8 @@ For example, if you chose logistic regression:
 * Select solver:'newton-cg', 'lbfgs', 'liblinear', 'sag', 'saga'
 
 This script will create landslide susceptiblity map with logistic regression method.
-
-
+<p>
+  <img width="550" height="512" src=https://github.com/apolat2018/LSAT/blob/master/Annex/fig5.png><p>
 
 **Supplementary**
 |-----------|
