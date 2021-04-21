@@ -37,11 +37,10 @@ Also, the area file must be polygonal type as shapefile format.\
 The sample data folder is given below:\
 https://github.com/apolat2018/LSAT/tree/master/sample_data \
 Factor raster files are in raster folder. Landslides and area file are in vectors folder.
-# ------------------------------------------------------------\
-* After the installations are done, download the toolbox and files with py extensions to a directory.
+## How to use the LSAT toolbox
+* After the installations are done, download the toolbox and script files with py extensions to same folder.
 * Open ArcGis.
 * Go to Catalog and open the toolbox file in the downloaded folder.
-## First step
 ### Preparing data for analysis
 * Double click "1- Data Preparation" script to prepare data.
     * Select the folder of landslide parameters (The name of the parameter raster files must begin with "rec". rec_aspect, rec_slope etc.)
@@ -53,9 +52,7 @@ Factor raster files are in raster folder. Landslides and area file are in vector
 
     <p>
   <img width="550" height="512" src="https://github.com/apolat2018/LSAT/blob/master/Annex/fig1.png"><p>
-    
 
-## Second step
 ### Analysis
 
 * Double click "1- Data Preparation" script to prepare data.
