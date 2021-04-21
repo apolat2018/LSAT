@@ -26,7 +26,7 @@ A tool file also was created for ArcGIS software (Landslide_Susceptibility_Asses
 
 Firstly you should prepare reclassed landslide factor raster files. They should be the same sizes and same resolutions.Prepared raster files must be shown below.
  <p>
-  <img width="1024" height="2048" src="https://github.com/apolat2018/LSAT/blob/master/rasters_image.jpg"><p>
+  <img width="512" height="1024" src="https://github.com/apolat2018/LSAT/blob/master/rasters_image.jpg"><p>
 
 IMPORTANT: All parameter files should be in the same folder. There should be no files other than factor raster files in this folder. The names of the parameters (factors) raster files must begin with "rec". rec_asp, rec_slp etc. Please do not use too long file names.
 
