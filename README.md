@@ -1,10 +1,10 @@
 # *Landslide Susceptibility Assessment tool* (LSAT)
 
-## LSAT scripts have been prepared for the assessment of landslide susceptibility.  
+#### LSAT scripts have been prepared for the assessment of landslide susceptibility.  
  <p>
   <img width="1024" height="522" src="https://github.com/apolat2018/LSAT/blob/master/Figure1.jpg"><p>
 
- ## LSAT includes ten python script. These are:
+ ### LSAT includes ten python script. These are:
 * [Preparing_Data.py](https://github.com/apolat2018/LSAT/blob/master/Preparing_Data.py)
 * [Create_LSM&Calculate_ROC.py](https://github.com/apolat2018/LSAT/blob/master/Create_LSM%26%26Calculate_ROC.py)
 * [frequency_ratio.py](https://github.com/apolat2018/LSAT/blob/master/frequency_ratio.py)
@@ -22,9 +22,9 @@ A tool file also was created for ArcGIS software (Landslide_Susceptibility_Asses
  - Create_LSM&Calculate_ROC.py is used to creates Landslide Susceptibility Map and calculates Area Under Curve (AUC) values with data including X-Y coordinate and probability fields. Prepared data using this script can be analyzed in external software. Then classification results can be processed with Create LSM and Calculate ROC script in GIS and susceptibility map can be created with AUC values. 
  - The other scripts are used to create LSM with the methods of Frequency Ratio (FR), Information Value (IV), Logistic Regression (LR), Random Forest (RF) and Multi-Layer Perceptron (MLP). Also, this tool includes tuning script for the methods of LR, RF, and MLP.
 
-## How to use Toolbox
+## Preparing reclassed landslide factor data
 
-Firstly you should prepare reclassed landslide factor raster files. They should be the same sizes and same resolutions.Prepared raster files must be shown below.
+Firstly you should prepare reclassed landslide factor raster files before using the toolbox. They should be the same sizes and same resolutions.Prepared raster files must be shown below.
  <p>
   <img width="512" height="1024" src="https://github.com/apolat2018/LSAT/blob/master/rasters_image.jpg"><p>
 
