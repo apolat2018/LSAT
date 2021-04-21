@@ -26,7 +26,7 @@
 
 ## Preparing reclassed landslide factor data
 
-Firstly you should prepare reclassed landslide factor raster files before using the toolbox. They should be the same sizes and same resolutions.Prepared raster files must be shown below.
+Firstly you should prepare reclassed landslide factor raster files before using the toolbox. They should be the same sizes and same resolutions. Prepared raster files should be as shown in the figure below.
  <p>
   <img width="512" height="1024" src="https://github.com/apolat2018/LSAT/blob/master/rasters_image.jpg"><p>
 
