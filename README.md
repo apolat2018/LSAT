@@ -80,10 +80,14 @@ For example, if you chose logistic regression:
 * Select maximum iteration value:Maximum number of iterations taken for the solvers to converge.
 * Select solver:'newton-cg', 'lbfgs', 'liblinear', 'sag', 'saga'
 
-This script will create landslide susceptiblity map with logistic regression method.
+This script will create landslide susceptiblity map with logistic regression method.\
+You can choose the methods of Frequency Ratio (FR), Information Value (IV), Logistic Regression (LR), Random Forest (RF), and Multi-Layer Perceptron (MLP) with the LSAT tool.
+
+If you have an excel file including x, y coordinate values, and probability fields you can use the script of "2- Create LSM and Calculate ROC". The excel file can be created by external software with different analysis methods. If you want to use the analysis methods of the LSAT tool you don't need to use this script.
 <p>
   <img width="550" height="512" src=https://github.com/apolat2018/LSAT/blob/master/Annex/fig5.png><p>
 
+* 
 **Supplementary**
 |-----------|
 |[Annex](https://github.com/apolat2018/LSAT/tree/master/Annex)|
