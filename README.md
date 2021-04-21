@@ -50,7 +50,7 @@ Factor raster files are in raster folder. Landslides and area file are in vector
     * Click "OK"
 
     <p>
-  <img width="512" height="1024" src="https://github.com/apolat2018/LSAT/blob/master/Annex/fig1.png"><p>
+  <img width="512" height="512" src="https://github.com/apolat2018/LSAT/blob/master/Annex/fig1.png"><p>
     
 
 ## Second step
