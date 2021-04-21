@@ -9,10 +9,10 @@
 * [frequency_ratio.py](https://github.com/apolat2018/LSAT/blob/master/frequency_ratio.py)
 * [information_value.py](https://github.com/apolat2018/LSAT/blob/master/information_value.py)
 * [Logistic_Regression.py](https://github.com/apolat2018/LSAT/blob/master/Logistic_Regression.py)
-* [tune_lr.py](https://github.com/apolat2018/LSAT/blob/master/tune_lr.py)
 * [randomforest.py](https://github.com/apolat2018/LSAT/blob/master/randomforest.py)
-* [tune_rf.py](https://github.com/apolat2018/LSAT/blob/master/tune_rf.py)
 * [MLP.py](https://github.com/apolat2018/LSAT/blob/master/MLP.py)
+* [tune_lr.py](https://github.com/apolat2018/LSAT/blob/master/tune_lr.py)
+* [tune_rf.py](https://github.com/apolat2018/LSAT/blob/master/tune_rf.py)
 * [tune_mlp.py](https://github.com/apolat2018/LSAT/blob/master/tune_mlp.py)
 * [Create_LSM&Calculate_ROC.py](https://github.com/apolat2018/LSAT/blob/master/Create_LSM%26%26Calculate_ROC.py)
 
