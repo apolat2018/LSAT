@@ -62,7 +62,7 @@ tasks.
     * choose script file
     * Do this for all script files in toolbox.
   <p>
-  <img width="622" height="397" src=https://github.com/apolat2018/LSAT/blob/master/Annex/fig5.png><p>
+  <img width="550" height="370" src=https://github.com/apolat2018/LSAT/blob/master/Select.png><p>
 ### Preparing data for analysis
 * Double click "1- Data Preparation" script to prepare data.
     * Select the folder of landslide parameters (The name of the parameter raster files must begin with "rec". rec_aspect, rec_slope etc.)
