@@ -55,6 +55,12 @@ tasks.
 * After the installations are done, download the toolbox and script files with py extensions to same folder.
 * Open ArcGis.
 * Go to Catalog and open the toolbox file in the downloaded folder.
+* Please check file location for all scripts.To do this:
+    * Right click on script
+    * Select properties
+    * Select search
+    * choose script file
+    * Do this for all script files in toolbox.
 ### Preparing data for analysis
 * Double click "1- Data Preparation" script to prepare data.
     * Select the folder of landslide parameters (The name of the parameter raster files must begin with "rec". rec_aspect, rec_slope etc.)
