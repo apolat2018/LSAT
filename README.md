@@ -51,6 +51,23 @@ tasks.
  * Pandas 0.16.1
  * Matplotlib 1.4.3  
  In addition to these, the C++ compiler must be installed for windows.
+ ### How to install python libraries
+ * open file explorer
+ * find scripts folder in python 2.7
+    * It is usually located in C:\Python27\ArcGISX.X\Scripts\
+    ArcGISX.X (X.X depends on the version of ArcGIS)
+ * open command prompt (cmd)
+    * Click on the address bar in the file explorer. Now type cmd in the address bar and press enter. Command Prompt will run.
+ * You should in "C:\Python27\ArcGISX.X\Scripts"
+    * Now you are ready to install python 2.7 packages
+    * You can use pip as "pip install package name==package version"
+        * pip install numpy
+        * pip install scipy
+        * pip install scikit-learn==0.20.2
+        * pip install pandas
+        * pip install matplotlib
+
+
 ## How to use the LSAT toolbox
 * After the installations are done, download the toolbox and script files with py extensions to same folder.
 * Open ArcGis.
