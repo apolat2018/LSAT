@@ -37,7 +37,7 @@ Also, the area file must be polygonal type as shapefile format.\
 The sample data folder is given below:\
 https://github.com/apolat2018/LSAT/tree/master/sample_data \
 Factor raster files are in raster folder. Landslides and area file are in vectors folder.
-## Installing required libraries
+## Required libraries
 
 LSAT works on ArcGIS software with the Windows platform. Before using the LSAT, the required installations must
 be done. Python 2.7 is already installed with ArcGIS 10.4.
